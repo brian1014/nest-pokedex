@@ -21,8 +21,7 @@ export class PokemonService {
       return pokemon
     } catch (error) {
       this.handleExceptions(error)
-    }
-    
+    } 
   }
 
   findAll() {
